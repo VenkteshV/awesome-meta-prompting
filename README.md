@@ -1,1 +1,5 @@
 # awesome-meta-prompting
+
+The advent of Large Language Models (LLMs) has lead to the paradigm of In-Context Learning where LLMs can easily adapt to new tasks by illustrating the task using few examples. This few-shot samples are called exemplars which may also contain explanations/justification to solve the task. This few-shot approach also termed as prompting. A prompt comprises three parts : (1) A system instruction component which describes the role of the model and the description of task. (2) Few-shot exemplars demonstrating how to perform the task and (3) Context which possibly houses the facts or information needed to solve the task (example evidence in case of Question Answering or fact-checking).
+
+In this repo we will list the papers that attempt to propsoe optimization approaches for selecting the best components for a prompt such as exemplar selection or selecting best context or selecting the best system instruction. We term this meta-prompting as it automates the prompt construction routine. 
